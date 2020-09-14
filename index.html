@@ -1,50 +1,22 @@
 <html>
-	<head>
-		<meta charset='utf-8' />
-		<link rel='stylesheet' type='text/css' href='styl.css' />
-		<title>
-			Kalkulator K/D/A
-		</title>
-	</head>
-	<body>
-		<div>
-			<table>
-				<tr>
-					<td>
-						<input type='number' id='kill' min='0' max='200' />
-					</td>
-					<td>
-						<input type='number' id='dead' min='0' max='200' />
-					</td>
-					<td>
-						<input type='number' id='assist' min='0' max='200' />
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<h3>
-							Kill's
-						</h3>
-					</td>
-					<td>
-						<h3>
-							Dead's
-						</h3>
-					</td>
-					<td>
-						<h3>
-							Assist's
-						</h3>
-					</td>
-				</tr>
-			</table>
-			<button type='button' onclick='calc()'>
-				Oblicz
-			</button>
-			<p id='result'>
-			</p>
-		</div>
-		<script src='calculate.js'>
-		</script>
-	</body>
+<head>
+<title>
+	SPIERDALAJ
+</title>
+<script>
+function flash(id, kolor, czas, kolor2, czas2)
+{
+	document.getElementById(id).style.color = kolor;
+	setTimeout('flash("' + id + '","' + kolor2 + '",' + czas2 + ',"' + kolor + '",' + czas + ')', czas);
+}
+</script>
+</head>
+<body bgcolor=red>
+<center>
+<div id="identyfikator" style="margin-top: 400px; font-size:150; font-weight:1000; font-family:stencil, monospace;">spierdalaj</div>
+</center>
+<script>
+flash("identyfikator", "black", 100, "red", 100);
+</script>
+</body>
 </html>
