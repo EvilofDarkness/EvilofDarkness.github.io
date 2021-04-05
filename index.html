@@ -1,0 +1,40 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="normalise.css">
+		<link rel="stylesheet" href="index.css">
+		<meta charset="utf-8">
+		<script>
+			function on(){
+				document.getElementById("txt").style.padding="70px 0px 0px 0px";
+				document.getElementById("txt").innerHTML="Zagraj w Grę";
+			}
+			function game(){
+				document.getElementById("txt").style.padding="13px 0px 0px 0px";
+				document.getElementById("txt").innerHTML="Nożyce"+"<br><br>Przegrana";
+			}
+			function game1(){
+				document.getElementById("txt").style.padding="13px 0px 0px 0px";
+				document.getElementById("txt").innerHTML="Papier"+"<br><br>Przegrana";
+			}
+			function game2(){
+				document.getElementById("txt").style.padding="13px 0px 0px 0px";
+				document.getElementById("txt").innerHTML="Kamień"+"<br><br>Przegrana";
+			}
+		</script>
+	</head>
+	<body onLoad="on()">
+		<center>
+		<div id="txt" class="b2" onClick="on()">
+		</div>
+		<div id="button" class="text" onClick="game()">
+			Papier
+		</div>
+		<div id="button" class="text" onClick="game1()">
+			Kamień
+		</div>
+		<div id="button" class="text" onClick="game2()"> 
+			Nożce 
+		</div>
+		</center>
+	</body>
+</html>

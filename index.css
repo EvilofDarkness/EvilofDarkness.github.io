@@ -1,0 +1,66 @@
+body{
+	background-color: #009966;
+}
+* {
+	box-sizing: border-box;
+}
+.b2{
+	background-color: #BBBBBB;
+	border-width: 10px;
+	border-style: solid;
+	border-bottom-color: #CCCCCC;
+	border-right-color: #CCCCCC;
+	border-left-color: #AAAAAA;
+	border-top-color: #AAAAAA;
+	width: 40vw;
+	height: 12vw;
+	margin: 3vw;
+	font-family: "Comic Sans MS";
+	font-size: 360%;
+	text-align: center;
+	padding-top: 70px;
+	user-select: none;
+   -webkit-user-select: none;
+   -khtml-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+}
+#button{
+	background-color: #BBBBBB;
+	border-width: 10px;
+	border-style: solid;
+	border-bottom-color: #CCCCCC;
+	border-right-color: #CCCCCC;
+	border-left-color: #AAAAAA;
+	border-top-color: #AAAAAA;
+	width: 15vw;
+	height: 10vw;
+	margin: 1vw;
+	font-family: "Comic Sans MS";
+	font-size: 360%;
+	text-align: center;
+	padding-top: 50px;
+	user-select: none;
+   -webkit-user-select: none;
+   -khtml-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+}
+#button:hover{
+	background-color: #999999;
+	border-width: 10px;
+	border-style: solid;
+	border-bottom-color: #AAAAAA;
+	border-right-color: #AAAAAA;
+	border-left-color: #888888;
+	border-top-color: #888888;
+}
+#button:active{
+	background-color: #CCCCCC;
+	border-width: 10px;
+	border-style: solid;
+	border-bottom-color: #DDDDDD;
+	border-right-color: #DDDDDD;
+	border-left-color: #BBBBBB;
+	border-top-color: #BBBBBB;
+}
