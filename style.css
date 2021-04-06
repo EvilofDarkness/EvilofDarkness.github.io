@@ -83,7 +83,7 @@ img
 .profile{
 	position:relative;
 	top: 5%;
-	left: 12.5%;
+	left: 8%;
 }
 .profile_button{
 	position: relative;
@@ -99,16 +99,47 @@ img
 	float:left;
 	font-size: 0.8vw;
 }
-.bar{
+#bar{
 	position: relative;
-	top: 1%;
-	left: 5%;
+	top: 1.2%;
+	left: 3.5%;
+	color: #FFFFFF;
+	height: 12%;
+	width: 40%;
+	float:left;
+}
+.resource{
+	height: 100%;
+	width: 45%;
+}
+#gold{
+	height: 40%;
+	width: 60%;
+	position: relative;
+	top: 0%;
+	left: -2%;
+}
+#sos{
+	height: 40%;
+	width: 60%;
+	position: absolute;
+	top: 0%;
+	left: 64%;
+}
+#exp{
 	border-style: solid;
 	border-width: 0.3vw;
 	border-color: #808080;
 	border-radius: 0.5vw;
-	margin-top: 1%;
-	height: 3%;
-	width: 40%;
-	float:left;
+	margin-top: 7%;
+	height: 30%;
+	width: 126%;
+}
+.res_text{
+	color: #FFFFFF;
+	font-family: "Comic Sans MS";
+	font-size: 1vw;
+	position: relative;
+	left: 47%;
+	top: -70%;
 }
